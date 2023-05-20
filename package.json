@@ -1,0 +1,38 @@
+{
+  "name": "codebash-react-modal",
+  "version": "0.0.1",
+  "description": "React modal",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "author": "Gilles Quodbach",
+  "license": "ISC",
+  "devDependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^4.5.8",
+    "@mui/material": "^5.13.1",
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "@rollup/plugin-terser": "^0.4.3",
+    "@rollup/plugin-typescript": "^11.1.1",
+    "@types/react": "^18.2.6",
+    "@types/react-dom": "^18.2.4",
+    "jest-environment-jsdom": "^29.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^3.22.0",
+    "rollup-plugin-dts": "^5.3.0",
+    "tslib": "^2.5.2",
+    "typescript": "^5.0.4"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "@mui/icons-material": "^5.11.16"
+  }
+}
